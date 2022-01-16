@@ -1,0 +1,118 @@
+.end-store {
+    border: 1px solid black;
+    background-color: black;
+}
+
+.contacts-all {
+    display: flex;
+    background-size: cover;
+}
+
+.contacts-left {
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.phone-email {
+    color: #dcb454;
+    font-family: 'Istok Web', sans-serif;
+}
+
+
+.contacts-anytime {
+    color: #dcb454;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+
+.contacts-anytime
+p {
+    margin: 0px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.contacts-line {
+    border: none; 
+    background-color: #dcb454; 
+    color: #dcb454;
+    height: 4px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+.address-info {
+    display: flex;
+    align-items: center;
+    color: #dcb454;
+    font-family: 'Istok Web', sans-serif;
+    margin-bottom: 10px;
+}
+
+.hours-info {
+    color: #dcb454;
+    font-family: 'Istok Web', sans-serif;
+    margin-bottom: 10px;
+}
+
+.social-end {
+    margin-top: 100px;
+}
+
+
+.message-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 50px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 400px;
+    width: 400px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+.message-form input {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: grey;
+    background-color: rgb(250,244,240);
+
+}
+
+
+.message-form input:nth-child(4) {
+    padding: 40px 20px;
+}
+
+
+.btn-request {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .contacts-all {
+      display: flex;
+      flex-direction: column;
+    }
+}

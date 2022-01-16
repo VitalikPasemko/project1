@@ -19,7 +19,7 @@
             case 1:  slideContainer.innerHTML = slides[currentSlideIdx];
                      break;
             case 2: 
-                    const nextSlideIdx = currentSlideIdx + 1 > slides.length ? 0 : currentSlideIdx +1;
+                    const nextSlideIdx = currentSlideIdx + 2 > slides.length ? 0 : currentSlideIdx +1;
                     slideContainer.innerHTML = slides[currentSlideIdx]
                     + slides[nextSlideIdx];
                     break;
@@ -27,17 +27,28 @@
         }
     }
 
+    function previousSlide() {
+        currentSlideIdx--;
+        if (currentSlideIdx < 0)
+          currentSlideIdx = slides.length-1;
+        showCurrentSlide();
+      }
+
     function nextSlide() {
         currentSlideIdx++;
         if (currentSlideIdx >= slides.length) currentSlideIdx = 0;
         showCurrentSlide();
     }
 
-    setInterval(nextSlide, 3000);
     showCurrentSlide();
 
+    document
+    .querySelector(".button-previous-click")
+    .addEventListener('click', previousSlide);
 
-
+    document
+    .querySelector(".button-next-click")
+    .addEventListener("click", nextSlide);
 })();
 
 
