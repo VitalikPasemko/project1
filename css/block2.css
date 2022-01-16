@@ -1,0 +1,13 @@
+.slide-show img {
+    width: 600px;
+    height: 600px;
+    padding: 120px 30px 120px 30px;
+}
+
+.slide-show {
+    border: 1px solid #e2ac66;
+    background-color: #e2ac66;
+    padding: auto;
+    text-align: center;
+}
+
