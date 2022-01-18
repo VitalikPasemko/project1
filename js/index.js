@@ -9,6 +9,7 @@
         '<img src="img/photo-case5.jpg" alt"photo-case">',
         '<img src="img/photo-case6.jpg" alt"photo-case">',
         '<img src="img/photo-case8.jpg" alt"photo-case">',
+        '<img src="img/photo-case9.jpg" alt"photo-case">',
     ];
     
     let currentSlideIdx = 0;
