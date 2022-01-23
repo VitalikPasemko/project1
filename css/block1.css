@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+body {
+    margin: 0px;
+    height: 100%;
+}
 
 .logotype {
     width: auto;
@@ -16,10 +20,26 @@
     background-size: cover;
     background-position: center;
     height: 500px;
-    background-attachment: fixed;
     padding: 100px;
     padding-top: 150px;
 }
+@media (max-width: 750px) {
+    .fone-block1 {
+      height: 270px;
+      background-size: inherit;
+      background-position: center;
+    }
+  }
+@media (max-width: 700px) {
+    .fone-block1 {
+      height: 300px;
+    }
+  }
+@media (max-width: 500px) {
+    .fone-block1 {
+      padding: 80px 50px;
+    }
+  }
 
 .title-block1 {
     color: white;
@@ -36,10 +56,36 @@ ul {
     font-size: 25px;
     margin-top: 60px;
 }
+@media (max-width: 750px) {
+    .title-block1
+    p {
+        font-size: 20px;
+    }
+    ul {
+        font-size: 16px;
+    }
+}
+@media (max-width: 700px) {
+    .title-block1
+    p {
+        font-size: 18px;
+    }
+    ul {
+        font-size: 14px;
+    }
+}
+@media (max-width: 470px) {
+    .title-block1
+    p {
+        font-size: 14px;
+    }
+    ul {
+        font-size: 10px;
+    }
+}
 
 
-.button-block1
-button {
+.button-order {
     background-color: black; 
     border: none;
     color: #dcb454;
@@ -55,8 +101,7 @@ button {
     font-family: 'Istok Web', sans-serif;
 }
 
-.button-block1
-button:hover {
+.button-order:hover {
 	background: rgba(0, 0, 0, 0);
 	color: #ffffff;
 	box-shadow: inset 0 0 0 3px black;
@@ -83,6 +128,13 @@ button:hover {
     padding-left: 10px;
     padding-right: 10px;
 }
+@media (max-width: 470px) {
+    .social-icons {
+        width: 25px;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+}
 
 .burger {
     display: flex;
@@ -96,9 +148,15 @@ button:hover {
     margin-top: 40px;
     margin-left: auto;
 }
+@media (max-width: 1000px) {
+    .menu {
+      display: none;
+    }
+}
 
 .container {
     max-width: 2000px;
     margin: 0px auto;
+    min-height: 100vh;
 }
 

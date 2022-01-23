@@ -2,12 +2,11 @@
     background: url(../img/fone-block2.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 500px;
-    background-attachment: fixed;
+    height: 500px;
+    text-align: center;
 }
 
 .button-video-block {
     width: 100px;
     margin-top: 180px;
-    margin-left: 45%;  
 }

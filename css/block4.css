@@ -12,6 +12,12 @@
     margin: 100px auto auto 5%;
     font-family: 'Istok Web', sans-serif;
 }
+@media (max-width: 1200px) {
+    .contacts-left {
+        margin: 100px auto;
+    }
+
+}
 
 .phone-email {
     color: #dcb454;
@@ -32,6 +38,30 @@ p {
     font-size: 40px;
     text-align: center;
 }
+@media (max-width: 750px) {
+    .contacts-anytime
+    p {
+        margin: 0px;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+@media (max-width: 700px) {
+    .contacts-anytime
+    p {
+        margin: 0px;
+        font-size: 25px;
+        text-align: center;
+    }
+}
+@media (max-width: 470px) {
+    .contacts-anytime
+    p {
+        margin: 0px;
+        font-size: 20px;
+        text-align: center;
+    }
+}
 
 .contacts-line {
     border: none; 
@@ -40,6 +70,11 @@ p {
     height: 4px;
     width: 100%;
     margin-bottom: 50px;
+}
+@media (max-width: 750px) {
+    .contacts-line {
+        width: 50%;
+    }
 }
 
 
@@ -60,6 +95,11 @@ p {
 .social-end {
     margin-top: 100px;
 }
+@media (max-width: 1200px) {
+    .social-end {
+      text-align: center;
+    }
+}
 
 
 .message-form {
@@ -72,6 +112,13 @@ p {
     width: 400px;
     border-radius: 40px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+@media (max-width: 520px) {
+    .message-form {
+      width: auto;
+      height: auto;
+      margin: 50px auto 50px auto;
+  }
 }
 
 .message-form input {
@@ -110,4 +157,34 @@ p {
 
 button:hover {
 	background: linear-gradient(#c78e0b, #995d0f) #bb6f0b;
+}
+
+@media (max-width: 1200px) {
+    .contacts-all {
+      display: flex;
+      flex-direction: column;
+    }
+}
+
+@media (max-width: 750px) {
+    .address-info {
+        font-size: 15px;
+    }
+    .hours-info {
+        font-size: 15px;
+    }
+    .phone-email {
+        font-size: 15px;
+    }
+}
+@media (max-width: 550px) {
+    .address-info {
+        font-size: 10px;
+    }
+    .hours-info {
+        font-size: 10px;
+    }
+    .phone-email {
+        font-size: 10px;
+    }
 }
