@@ -27,7 +27,7 @@ body {
     .fone-block1 {
       height: 270px;
       background-size: inherit;
-      background-position: center;
+      background-position: bottom;
     }
   }
 @media (max-width: 700px) {
@@ -63,6 +63,7 @@ ul {
     }
     ul {
         font-size: 16px;
+        margin-top: 50px;
     }
 }
 @media (max-width: 700px) {
@@ -72,6 +73,7 @@ ul {
     }
     ul {
         font-size: 14px;
+        margin-top: 55px;
     }
 }
 @media (max-width: 470px) {
@@ -80,7 +82,8 @@ ul {
         font-size: 14px;
     }
     ul {
-        font-size: 10px;
+        font-size: 12px;
+        margin-top: 40px;
     }
 }
 
