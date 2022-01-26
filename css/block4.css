@@ -188,3 +188,10 @@ button:hover {
         font-size: 10px;
     }
 }
+
+.created-by {
+    color: #dcb454;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
