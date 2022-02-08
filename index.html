@@ -74,7 +74,7 @@
   <section class="video" id="video">
     <div class="fone-block2">
       <div class="button-video-block2">
-        <a href="https://youtu.be/zlidZps7MhM" target="_blank">
+        <a href="https://www.youtube.com/watch?v=g8vzg33VAc4&ab_channel=stepanpasemko" target="_blank">
           <img src="img/youtube.png" class="button-video-block" alt="leather work" />
         </a>
       </div>
@@ -115,11 +115,16 @@
       </div>
       <section class="order" id="order"></section>
       <div class="message-form">
-        <input class="full-name-text" type="text" placeholder="Введите свое полное имя*" />
-        <input class="phone-nomer-text" type="text" placeholder="Введите свой номер телефона*" />
-        <input class="email-text" type="text" placeholder="Введите адрес электронной почты*" />
-        <input class="type-message" type="text" placeholder="Введите ваше сообщение*" />
-        <button class="btn-request">Отправить</button>
+        <form>
+          <input type="hidden" name="project_name" value="Кожа">
+          <input type="hidden" name="admin_email" value="stepan.pasemko@gmail.com">
+          <input type="hidden" name="form_subject" value="Form Subject">
+          <input class="full-name-text" type="text" placeholder="Введите свое полное имя*" />
+          <input class="phone-nomer-text" type="text" placeholder="Введите свой номер телефона*" />
+          <input class="email-text" type="text" placeholder="Введите адрес электронной почты*" />
+          <input class="type-message" type="text" placeholder="Введите ваше сообщение*" />
+          <button class="btn-request">Отправить</button>
+      </form>
       </div>
     </div>
     <div class="created-by">
@@ -128,6 +133,7 @@
   </div>
 </div>
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="js/script.js"></script>
   <script src="js/index.js"></script>
 </body>
 
