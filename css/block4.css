@@ -121,6 +121,7 @@ p {
   }
 }
 
+
 .message-form input {
     margin-bottom: 20px;
     padding: 20px;
@@ -195,3 +196,4 @@ button:hover {
     flex-direction: column;
     text-decoration: none;
 }
+
